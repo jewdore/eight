@@ -17,7 +17,7 @@ jobs:
           hugo-version: 'latest'
           # extended: true
       - name: ls
-        run: ls ${{ github.workspace }}/themes/
+        run: ls ${{ github.workspace }}/themes/hugo-theme-next/layouts/
       - name: Build
         run: hugo --minify
 
