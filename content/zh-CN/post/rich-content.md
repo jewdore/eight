@@ -37,4 +37,4 @@ Hugo 上有几个[**内置短码**](https://gohugo.io/content-management/shortco
 
 ## 哔哩哔哩短码
 
-{{<  bilibili BV1m4411c7ia >}}
+{{/*<  bilibili BV1m4411c7ia >*/}}
