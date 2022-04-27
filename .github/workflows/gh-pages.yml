@@ -16,7 +16,8 @@ jobs:
         with:
           hugo-version: 'latest'
           # extended: true
-
+      - name: ls
+        run: ls ${{ github.workspace }}
       - name: Build
         run: hugo --minify
 
